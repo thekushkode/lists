@@ -2,21 +2,25 @@
 # convert infinite grocery item propt
 # only accept 3 items
 
+# groc list var defined
 groc = []
 
-
+#build list
 while len(groc) < 3:
     needs = input('Enter one grocery item you need: ')
     groc.append(needs)
 
+#groc2 list var defined
 groc2 = []
 
+#build list
 while len(groc2) < 3:
     needs2 = input('Enter one grocery item you need: ')
     groc2.append(needs2)
 
-
+#adds lists and puts them into a new list
 groc_fin = groc + groc2
+
 #or groc_fin = groc.extend(groc2)
 print(groc_fin)
 
