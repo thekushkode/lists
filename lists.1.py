@@ -6,14 +6,15 @@
 groc = ['milk', 'bread', 'beer']
 
 # need = input('Enter one grocery item: ')
-
 # groc.append(need)
-
 # print(groc)
+# print(groc[1])
 
-# While Loop Version
+# WHILE LOOP VERSION
 
 while True:
     needs = input('Enter one grocery item you need: ')
     groc.append(needs)
     print(groc)
+
+#print(len(groc)) <---- PRINTS NUMBER OF ITEMS IN LIST/ LIST LENGTH
